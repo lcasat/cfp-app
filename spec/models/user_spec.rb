@@ -9,7 +9,7 @@ describe User do
     let(:github_auth_hash) { OmniAuth.config.mock_auth[:github] }
     let(:name) { OmniAuth.config.mock_auth[:twitter].info.name }
     let(:email) { 'test1@omniuser.com' }
-    let(:account_name) { 'testuser' }
+    let(:account_name) { 'testuser1' }
 
     context "User already exists" do
       let!(:user) { create(:user, email: email, name: OmniAuth.config.mock_auth[:github].info.name, uid: OmniAuth.config.mock_auth[:github].uid, provider: "github") }
