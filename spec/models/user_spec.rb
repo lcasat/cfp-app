@@ -8,7 +8,7 @@ describe User do
     let(:twitter_auth_hash) { OmniAuth.config.mock_auth[:twitter] }
     let(:github_auth_hash) { OmniAuth.config.mock_auth[:github] }
     let(:name) { OmniAuth.config.mock_auth[:twitter].info.name }
-    let(:email) { 'test@omniuser.com' }
+    let(:email) { 'test1@omniuser.com' }
     let(:account_name) { 'testuser' }
 
     context "User already exists" do
