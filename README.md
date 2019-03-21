@@ -1,5 +1,7 @@
 # Call for Proposals (CFP) App 2.0
 
+Testing Github commit Trigger
+
 ## WARNING
 
 This is a major upgrade from the original CFP App that is not backwards compatible.  We redesigned many of the core data models and changed how the app works. Some functionality may be unavailable to Internet Explorer 9 and earlier.
